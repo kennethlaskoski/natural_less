@@ -24,7 +24,7 @@ bool never_less(const std::string& lhs, const std::string& rhs)
 void print(const std::vector<std::string>& data)
 {
     for (int i = 0; i < data.size(); ++i)
-        std::cout << data[i] << '\n';
+        std::cout << data[i].c_str() << '\n';
     std::cout << '\n';
 }
 
